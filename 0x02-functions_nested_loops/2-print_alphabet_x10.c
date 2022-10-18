@@ -17,11 +17,10 @@ void print_alphabet_x10(void)
 		alpha = 'a';
 		while (alpha <= 'z')
 		{
-		_putchar(alpha);
-	        alpha++;
+			_putchar(alpha);
+			alpha++;
 		}
-
-	_putchar('\n');
-        i++;
+		_putchar('\n');
+	       	i++;
 	}
 }	
